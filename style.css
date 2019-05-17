@@ -1,0 +1,68 @@
+/* font family & text alignment for entire body */
+body {
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* font-weight for all h1, h2, and h3 heading */
+h1,
+h2,
+h3 {
+    font-weight: bold;
+}
+
+/* main class created */
+.main {
+    font-size: 70px;
+}
+
+/* bgi class created for background image  */
+.bgi {
+    background-image: url(./images/background.png);
+}
+
+/* main-list created */
+.main-list {
+    font-size: 18px;
+}
+
+/* list-style applied for list in a main-list class */
+.main-list li {
+    list-style: none;
+}
+
+/* color applied for many similar classes */
+.main, .main-list, .design, .footer {
+    color: white;
+}
+
+/* process class created */
+.process {
+    font-size: 32px;
+
+}
+
+/* identity class created */
+.identity {
+    font-size: 23px;
+
+}
+
+/* This will select paragraph in a identity class */
+.identityp {
+           font-size: 14px;
+}
+
+/* design class created */
+.design {
+    font-size: 23px;
+    background-image: url(./images/background.png);
+
+}
+
+/* footer class created */
+.footer {
+    font-size: 11px;
+    background-color: dimgray;
+    text-align: left;
+}
