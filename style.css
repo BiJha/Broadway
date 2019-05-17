@@ -26,8 +26,9 @@ h3 {
     font-size: 18px;
 }
 
-/* list-style applied for list in a main-list class */
-.main-list li {
+/* list-style applied */
+
+li {
     list-style: none;
 }
 
